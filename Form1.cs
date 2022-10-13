@@ -29,7 +29,7 @@ namespace pk111GameStruev
         int newY = 12;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            newY += 3; //newY = newY + 3;
+            newY += 6; //newY = newY + 3;
             button1.Location = new Point(110, newY);
         }
 
