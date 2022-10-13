@@ -39,13 +39,14 @@ namespace pk111GameStruev
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(110, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(130, 31);
             this.button1.TabIndex = 0;
             this.button1.Text = "Тык";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,9 +54,9 @@ namespace pk111GameStruev
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(214, 12);
+            this.button2.Location = new System.Drawing.Point(246, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 47);
+            this.button2.Size = new System.Drawing.Size(121, 31);
             this.button2.TabIndex = 1;
             this.button2.Text = "Жмяк";
             this.button2.UseVisualStyleBackColor = true;
@@ -63,9 +64,9 @@ namespace pk111GameStruev
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(341, 12);
+            this.button3.Location = new System.Drawing.Point(373, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(71, 111);
+            this.button3.Size = new System.Drawing.Size(114, 31);
             this.button3.TabIndex = 2;
             this.button3.Text = "Чпок";
             this.button3.UseVisualStyleBackColor = true;
@@ -73,9 +74,9 @@ namespace pk111GameStruev
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(461, 12);
+            this.button4.Location = new System.Drawing.Point(493, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 61);
+            this.button4.Size = new System.Drawing.Size(127, 31);
             this.button4.TabIndex = 3;
             this.button4.Text = "Туц";
             this.button4.UseVisualStyleBackColor = true;
@@ -95,7 +96,7 @@ namespace pk111GameStruev
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 10;
+            this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
@@ -115,11 +116,24 @@ namespace pk111GameStruev
             this.timer4.Enabled = true;
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.Location = new System.Drawing.Point(713, 415);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Restart";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Visible = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -128,6 +142,7 @@ namespace pk111GameStruev
             this.Name = "Form1";
             this.Text = "Game";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +159,7 @@ namespace pk111GameStruev
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.Button button5;
     }
 }
 
