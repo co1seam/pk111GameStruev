@@ -1,0 +1,10 @@
+C:\Users\IT\source\repos\pk111GameStruev\bin\Debug\pk111GameStruev.exe.config
+C:\Users\IT\source\repos\pk111GameStruev\bin\Debug\pk111GameStruev.exe
+C:\Users\IT\source\repos\pk111GameStruev\bin\Debug\pk111GameStruev.pdb
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.csproj.AssemblyReference.cache
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.Form1.resources
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.Properties.Resources.resources
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.csproj.GenerateResource.cache
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.csproj.CoreCompileInputs.cache
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.exe
+C:\Users\IT\source\repos\pk111GameStruev\obj\Debug\pk111GameStruev.pdb
